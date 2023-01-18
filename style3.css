@@ -1,0 +1,17 @@
+#myBtn:hover{
+    background-color: aqua;
+
+}
+button:nth-child(3){
+    background-color: blueviolet;
+}
+#myInput::placeholder{
+    color: red;
+}
+
+#myTitle::after{
+    content:"test";
+}
+#myTitle::before{
+    content:"inainte";
+}

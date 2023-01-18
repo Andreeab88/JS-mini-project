@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  padding: 20px;
+  font-size: 0.5em;
+}
+.contained {
+  width: 50%;
+  height: 50%;
+  border: 3px solid black;
+}
+
+/*rem se raporteaza la dimensiunea de baza, de 16px  */
+
+.main-title {
+  font-size: 1rem;
+}
+
+/* em se raporteaza la parintele direct, .secondary-title este
+ in .container,in fisierul Html */
+
+.secondary-title {
+  font-size: 1em;
+}
+
+.container1{
+    background-color: bisque;
+    height: 100em;
+}
+
+.block1{
+    position: absolute;
+    left: 10em;
+width: 10em;
+height: 10em;
+background-color: aquamarine;
+}
+
+.block2{
+    position: fixed;
+    left: 1em;
+    width: 10em;
+    height: 10em;
+    background-color: rgb(253, 127, 255);
+    }
+
+    .block3{
+        position: sticky;
+        top:1em;
+        width: 10em;
+        height: 10em;
+        background-color: rgb(21, 189, 60);
+        }
