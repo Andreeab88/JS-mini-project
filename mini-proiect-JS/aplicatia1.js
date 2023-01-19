@@ -61,7 +61,7 @@ function displayMessage(message){
 
 
 function inputIsValid(input){
-    if(input){
+    if (input){
        return true;
     }
     return false;
